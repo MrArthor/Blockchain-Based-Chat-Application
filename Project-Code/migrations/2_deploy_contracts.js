@@ -1,5 +1,5 @@
-var TodoList = artifacts.require("./TodoList.sol");
+const ChatApp = artifacts.require("ChatApp");
 
 module.exports = function(deployer) {
-  deployer.deploy(TodoList);
+  deployer.deploy(ChatApp);
 };
